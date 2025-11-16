@@ -95,7 +95,7 @@ func (c *NapcatPlugin) loop(ctx context.Context) {
 					{
 						Type: "text",
 						Data: NapcatMessageData{
-							Text: fmt.Sprintf("[%s] %s", msg.Title, msg.Message),
+							Text: fmt.Sprintf("%s\n%s", msg.Title, msg.Message),
 						},
 					},
 				},
